@@ -17,6 +17,6 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
-app.post('/pizza', function (req, res) {
+app.get('/pizza', function (req, res) {
   res.send('Hello Pizza!');
 });
